@@ -20,3 +20,7 @@ tensorflow 2.0.0,
 cuda installed,
 openCV 4.1.1.26, 
 imagenet weights.
+
+Here the results--------------
+![alt text](https://github.com/shalom217/Transfer_learning/blob/master/NORMAL_RESULT.png)
+![alt text](https://github.com/shalom217/Transfer_learning/blob/master/pneumonia_result.png)
