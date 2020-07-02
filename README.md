@@ -13,10 +13,10 @@ Here we implementing(optimizer = 'adam') with Callbacks method having (EarlyStop
 We have also accuracyVSepoch and lossVSepoch curves of both test and train datasets.
 Go check it out----train the model, save it, and try predicting by your own.
 
-REQUIREMENTS
-keras 2.3.1  
-python 3.7
-tensorflow 2.0.0 
-cuda installed
-openCV 4.1.1.26 
-imagenet weights
+REQUIREMENTS----
+keras 2.3.1,  
+python 3.7,
+tensorflow 2.0.0, 
+cuda installed,
+openCV 4.1.1.26, 
+imagenet weights.
