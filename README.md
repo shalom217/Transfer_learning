@@ -3,7 +3,7 @@ According to https://www.healthline.com/health/pneumonia#is-it-contagious? Pneum
 ![alt text](https://github.com/shalom217/Transfer_learning/blob/master/images%20(1).jpg)
 ![alt text](https://github.com/shalom217/Transfer_learning/blob/master/images.jpg)
 
-This classifier is built using Transfer Learning techinque on one of the famous CNN architecture that is VGG16(using trained weights of imagenet dataset)which was itself built on imagenet dataset of 1000 differnt classes.![alt text](https://github.com/shalom217/Transfer_learning/blob/master/stock-vector-knowledge-or-ideas-transfer-between-adult-man-head-to-young-boy-head-transferring-knowledge-475786699.jpg)
+This classifier is built using Transfer Learning techinque on one of the famous CNN architecture that is VGG16(using trained weights of imagenet dataset)which was itself built on imagenet dataset of 1000 differnt classes.![alt text](https://github.com/shalom217/Transfer_learning/blob/master/transfer_l.jpeg)
 Here a detailed comparision between old/default VGG16model(which was built to classify 100 categories) and our custom model using trained weights of VGG16model and classifying only 2 classes.Have a look----- ![alt text](https://github.com/shalom217/Transfer_learning/blob/master/DEFAULTvsOURS.png)
 Here we implementing(optimizer = 'adam') with Callbacks method having (EarlyStopping=92% accuracy and ModelCheckpoint=91% accuracy).Here Accuracy log is shown-----![alt text](https://github.com/shalom217/Transfer_learning/blob/master/accuracy_log.png)
 
